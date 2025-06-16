@@ -1,0 +1,47 @@
+.topHeading {
+  color: #170f49;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 29px;
+}
+.customPara {
+  color: #000000;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.mainCard {
+  border-radius: 13px;
+  border-color: #f0f0f0;
+}
+.cardTitle {
+  color: #170f49;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+.cardText {
+  color: #6f6c90;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 19px;
+  width: 100%;
+  max-width: 249px;
+}
+.userName {
+  color: #170f49;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12px;
+}
+.userInfo {
+  font: "Poppins";
+  font-weight: 400;
+  font-size: 11px;
+  color: #6f6c90;
+}
