@@ -1,0 +1,21 @@
+.mainContainer {
+  margin-top: 8rem;
+  margin-bottom: 1rem;
+}
+.footerHeading {
+  font-size: 15px;
+  color: black;
+  font-weight: 600;
+}
+.footerPara {
+  font-size: 13px;
+  font-size: "Poppins";
+  font-weight: 500;
+  line-height: 20px;
+}
+.footerParaTwo {
+  font-size: 13px;
+  font-size: "Poppins";
+  font-weight: 600;
+  line-height: 20px;
+}
