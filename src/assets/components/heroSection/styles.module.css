@@ -57,6 +57,12 @@
     padding-right: 2.5rem;
   }
 }
+@media (max-width: 1200px) {
+  .customImage {
+    width: 100%;
+    max-width: 545px;
+  }
+}
 @media (max-width: 767px) {
   .mainDiv {
     padding-top: 4rem;
