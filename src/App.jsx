@@ -1,10 +1,11 @@
-import React from "react";
-import MindBalance from "./assets/taskOne/page/MindBalance";
+import Routing from "./assets/routing/Routing";
+// import MindBalance from "./assets/taskOne/page/MindBalance";
 
 function App() {
   return (
     <div>
-      <MindBalance />
+      {/* <MindBalance /> */}
+      <Routing />
     </div>
   );
 }
