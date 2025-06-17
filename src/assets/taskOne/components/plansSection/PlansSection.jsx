@@ -1,7 +1,7 @@
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
 import styles from "./styles.module.css";
-import imgOne from "../../../assets/images/PlansSection/imgOne.svg";
-import imgTwo from "../../../assets/images/PlansSection/imgTwo.png";
+import imgOne from "../../../taskOne/images/PlansSection/imgOne.svg";
+import imgTwo from "../../../taskOne/images/PlansSection/imgTwo.png";
 function PlansSection() {
   const freeFeatures = [
     "Unlimited Access",

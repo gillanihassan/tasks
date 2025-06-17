@@ -1,5 +1,5 @@
 import React from "react";
-import MindBalance from "./assets/page/MindBalance";
+import MindBalance from "./assets/taskOne/page/MindBalance";
 
 function App() {
   return (

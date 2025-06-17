@@ -1,8 +1,8 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 import styles from "./styles.module.css";
-import iconOne from "../../../assets/images/footer/iconOne.png";
-import iconTwo from "../../../assets/images/footer/iconTwo.png";
-import iconThree from "../../../assets/images/footer/iconThree.png";
+import iconOne from "../../../taskOne/images/footer/iconOne.png";
+import iconTwo from "../../../taskOne/images/footer/iconTwo.png";
+import iconThree from "../../../taskOne/images/footer/iconThree.png";
 
 const Footer = () => {
   return (

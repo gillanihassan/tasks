@@ -1,8 +1,8 @@
 import { Button, Card, Col, Image, Row } from "react-bootstrap";
 import styles from "./styles.module.css";
-import notepad from "../../../assets/images/featuresSection/notepad.svg";
-import youtube from "../../../assets/images/featuresSection/youtube.svg";
-import chart from "../../../assets/images/featuresSection/chart.svg";
+import notepad from "../../../taskOne/images/featuresSection/notepad.svg";
+import youtube from "../../../taskOne/images/featuresSection/youtube.svg";
+import chart from "../../../taskOne/images/featuresSection/chart.svg";
 
 // === Card Data Array ===
 const featureCards = [

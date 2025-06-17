@@ -16,5 +16,4 @@ function MindBalance() {
     </div>
   );
 }
-
 export default MindBalance;

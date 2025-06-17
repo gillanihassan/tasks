@@ -1,7 +1,7 @@
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
-import imgOne from "../../../assets/images/testimonials/imgOne.png";
-import imgTwo from "../../../assets/images/testimonials/imgTwo.png";
-import imgThree from "../../../assets/images/testimonials/imgThree.png";
+import imgOne from "../../../taskOne/images/testimonials/imgOne.png";
+import imgTwo from "../../../taskOne/images/testimonials/imgTwo.png";
+import imgThree from "../../../taskOne/images/testimonials/imgThree.png";
 import styles from "./styles.module.css";
 
 function TestimonialsSection() {

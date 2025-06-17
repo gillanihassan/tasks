@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 import { Button, Col, Image, Row } from "react-bootstrap";
-import HeroImage from "../.././../assets/images/heroSection/HeroImage.png";
+import HeroImage from "../.././../taskOne/images/heroSection/HeroImage.png";
 
 function HeroSection() {
   return (
