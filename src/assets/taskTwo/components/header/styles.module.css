@@ -1,0 +1,106 @@
+.mainDiv {
+  min-height: 100vh;
+  background-image: url("../../../taskTwo/images/header/HeroSection.png");
+  background-size: cover;
+  background-position: center;
+}
+.navbar {
+  padding: 10px 10px;
+  /* border: 2px solid red; */
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0px;
+}
+.logo {
+  width: 200px;
+  height: 50px;
+}
+.links {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "Poppins";
+}
+.workBtn {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Poppins";
+  line-height: 18px;
+  background-color: #0fe5f5;
+  padding: 1rem;
+  border: none;
+}
+.workBtn:hover,
+.workBtn:focus {
+  color: #ffffff;
+  background-color: #0fe5f5;
+}
+.contentDiv {
+  /* border: 2px solid yellow; */
+}
+.mainHeading {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  width: 100%;
+  max-width: 1256px;
+}
+.contentPara {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+.contentBtn {
+  background-color: #0fe5f5;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  padding: 0.7rem 0.8rem;
+}
+.contentBtn:hover,
+.contentBtn:focus {
+  color: #ffffff;
+  background-color: #0fe5f5;
+}
+@media (max-width: 768px) {
+  .mainHeading {
+    font-size: 60px;
+    line-height: 68px;
+  }
+}
+@media (max-width: 768px) {
+  .mainHeading {
+    font-size: 60px;
+    line-height: 68px;
+  }
+}
+@media (max-width: 576px) {
+  .mainHeading {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .contentPara {
+    font-size: 21px;
+    line-height: 26px;
+  }
+}
+@media (max-width: 450px) {
+  .mainHeading {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .contentPara {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}

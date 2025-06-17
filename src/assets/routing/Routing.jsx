@@ -1,12 +1,14 @@
 import React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import MindBalance from "../taskOne/page/MindBalance";
+import TaskTwo from "../taskTwo/page/TaskTwo";
 
 function Routing() {
   return (
     <Router>
       <Routes>
         <Route path="/taskOne" element={<MindBalance />} />
+        <Route path="/taskTwo" element={<TaskTwo />} />
       </Routes>
     </Router>
   );
