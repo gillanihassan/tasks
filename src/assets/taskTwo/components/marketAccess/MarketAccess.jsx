@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 import { Col, Image, Row } from "react-bootstrap";
-import map from "../../../taskTwo/images/marketAccess/Map.svg";
+import map from "../../../taskTwo/images/marketAccess/map.svg";
 
 function MarketAccess() {
   return (
