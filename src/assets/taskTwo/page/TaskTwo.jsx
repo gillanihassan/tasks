@@ -6,6 +6,7 @@ import WareHouse from "../components/wareHouse/WareHouse";
 import BrandPartner from "../components/brandPartner/BrandPartner";
 import TeamSection from "../components/teamSection/TeamSection";
 import About from "../components/about/About";
+import Footer from "../components/footer/Footer";
 
 function TaskTwo() {
   return (
@@ -18,6 +19,7 @@ function TaskTwo() {
       <BrandPartner />
       <TeamSection />
       <About />
+      <Footer />
     </div>
   );
 }
