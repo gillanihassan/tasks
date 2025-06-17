@@ -1,0 +1,46 @@
+.footerDiv {
+  /* border: 2px solid red; */
+  margin-top: 3rem;
+}
+.footerLogo {
+  width: 200px;
+  height: 50px;
+}
+.footerParaOne {
+  color: #505c7e;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.footerIcons {
+  width: 48px;
+  height: 48px;
+}
+.footerHeading {
+  color: #0c2f93;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+.footerLink {
+  color: #505c7e;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+}
+.footerIconsTwo {
+  width: 24px;
+  height: 24px;
+}
+.inputGroup {
+  background-color: #0fe5f5;
+  color: #ffffff;
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: "Poppins";
+}
