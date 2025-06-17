@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 import { Col, Image, Row } from "react-bootstrap";
-import map from "../../../taskTwo/images/marketAccess/map.svg";
+import MapImage from "../../../taskTwo/images/marketAccess/map-image.svg";
 
 function MarketAccess() {
   return (
@@ -25,7 +25,7 @@ function MarketAccess() {
           </p>
         </Col>
         <Col md={6} className="p-2">
-          <Image src={map} className={`${styles.customImage}`} />
+          <Image src={MapImage} className={`${styles.customImage}`} alt="" />
         </Col>
       </Row>
     </div>
