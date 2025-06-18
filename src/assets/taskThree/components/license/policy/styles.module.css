@@ -1,0 +1,66 @@
+.mainDiv {
+  /* border: 2px solid red; */
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.topPara {
+  color: #d92626;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+  letter-spacing: 0%;
+}
+.spanOne {
+  color: #d92626;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+}
+.spanTwo {
+  color: #d92626;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 56px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.customBtn {
+  background-color: #f57a3d;
+  border-radius: 64px;
+  padding-top: 16px;
+  padding-right: 40px;
+  padding-bottom: 16px;
+  padding-left: 40px;
+  color: #0f1324;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: center;
+  border: none;
+}
+.customBtn:hover {
+  background-color: #f57a3d;
+  color: #0f1324;
+}
+.paraTwo {
+  color: #636363;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 20px;
+}
+.paraSpan {
+  color: #636363;
+  font-family: " Open Sans";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 6%;
+}
