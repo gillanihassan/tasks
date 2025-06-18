@@ -4,6 +4,7 @@ import BuySection from "../buySection/BuySection";
 import LicensesSection from "../licensesSection/LicensesSection";
 import LicenseService from "../licenseService/LicenseService";
 import FormSection from "../formSection/FormSection";
+import ContactForm from "../contactForm/ContactForm";
 
 function LicensePage() {
   return (
@@ -13,6 +14,7 @@ function LicensePage() {
       <LicensesSection />
       <LicenseService />
       <FormSection />
+      <ContactForm />
     </div>
   );
 }

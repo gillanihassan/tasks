@@ -1,0 +1,42 @@
+.mainContainer {
+  margin-top: 4.5rem;
+  border-bottom: 1px solid #f1f1f4;
+  padding-bottom: 4rem;
+}
+.leftColHeading {
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 40px;
+}
+.formLabel {
+  color: #6d6f79;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.formControl {
+  border: 1px solid #abadba;
+  border-radius: 4px;
+}
+.formControlOne {
+  border: 1px solid #abadba;
+  border-radius: 4px;
+  width: 50%;
+}
+@media (max-width: 576px) {
+  .mainContainer {
+    margin-top: 1rem;
+    padding: 1.2rem;
+  }
+  .formControlOne {
+    width: 100%;
+  }
+}
+@media (max-width: 460px) {
+  .leftColHeading {
+    font-size: 15px;
+    line-height: 26px;
+  }
+}
