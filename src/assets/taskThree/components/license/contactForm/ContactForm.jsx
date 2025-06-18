@@ -1,6 +1,5 @@
 import { Container, Row, Col, Form } from "react-bootstrap";
 import styles from "./styles.module.css";
-import FlagImage from "../../../../taskThree/images/contactForm/flag-img.png";
 
 function ContactForm() {
   return (
