@@ -7,6 +7,7 @@ import FormSection from "../formSection/FormSection";
 import ContactForm from "../contactForm/ContactForm";
 import BillingSection from "../billingSection/BillingSection";
 import Policy from "../policy/Policy";
+import LicenseFooter from "../footer/LicenseFooter";
 
 function LicensePage() {
   return (
@@ -19,6 +20,7 @@ function LicensePage() {
       <ContactForm />
       <BillingSection />
       <Policy />
+      <LicenseFooter />
     </div>
   );
 }
