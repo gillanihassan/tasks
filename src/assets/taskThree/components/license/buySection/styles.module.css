@@ -1,0 +1,41 @@
+.mainContainer {
+  margin-top: 6rem;
+  border-bottom: 1px solid #f1f1f4;
+  padding-bottom: 4rem;
+  /* border: 2px solid red; */
+}
+.topHeading {
+  color: #0f1324;
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 56px;
+}
+.para {
+  color: #0f1324;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  width: 100%;
+  max-width: 600px;
+}
+@media (max-width: 1400px) {
+  .mainContainer {
+    padding: 2.8rem;
+  }
+}
+@media (max-width: 576px) {
+  .mainContainer {
+    padding: 1.2rem;
+    margin-top: 2rem;
+  }
+  .topHeading {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .para {
+    font-size: 13px;
+    line-height: 24px;
+  }
+}
