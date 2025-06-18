@@ -9,28 +9,35 @@
   font-size: 24px;
   line-height: 40px;
 }
-.formLabel {
+.para {
   color: #6d6f79;
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
 }
-.formControl {
+.customBtn {
   border: 1px solid #abadba;
-  border-radius: 4px;
-}
-.formControlOne {
-  border: 1px solid #abadba;
-  border-radius: 4px;
-  width: 50%;
-}
-.formControlOne::placeholder {
+  background-color: #ffffff;
   color: #0f1324;
+  border-radius: 4px;
+  width: 160px;
+  height: 48px;
   font-family: "Open Sans";
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
+  text-align: start;
+}
+.customBtn:hover {
+  border: 1px solid #f57a3d;
+  background-color: #feeee7;
+  color: #0f1324;
+}
+.active {
+  border: 1px solid #f57a3d;
+  background-color: #feeee7;
+  color: #0f1324;
 }
 @media (max-width: 576px) {
   .mainContainer {
@@ -38,6 +45,9 @@
     padding: 1.2rem;
   }
   .formControlOne {
+    width: 100%;
+  }
+  .customBtn {
     width: 100%;
   }
 }
