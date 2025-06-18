@@ -1,0 +1,80 @@
+.mainContainer {
+  margin-top: 4.5rem;
+  border-bottom: 1px solid #f1f1f4;
+  padding-bottom: 4rem;
+}
+.leftColHeading {
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 40px;
+}
+.formLable {
+  font-family: " Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6d6f79;
+}
+.formControl {
+  max-width: 368px;
+  height: 48px;
+  border: 1px solid #abadba;
+  border-radius: 4px;
+}
+.rightColPara {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+  color: #d92626;
+}
+.rightColSpan {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  color: #d92626;
+}
+.rightColSpanTwo {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 56px;
+  color: #d92626;
+}
+.formControlTwo {
+  border: 1px solid #abadba;
+  border-radius: 4px;
+}
+.formControlTwo::placeholder {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.96px;
+  color: #6d6f79;
+}
+@media (max-width: 576px) {
+  .mainContainer {
+    margin-top: 2.5rem;
+    padding: 1.2rem;
+  }
+}
+@media (max-width: 450px) {
+  .mainContainer {
+    margin-top: 2rem;
+  }
+  .leftColHeading {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .formLable {
+    font-size: 13px;
+  }
+  .rightColPara {
+    text-align: right;
+    margin-top: 1rem;
+  }
+}
