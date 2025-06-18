@@ -4,7 +4,9 @@
 .roboto-text {
   font-family: "Roboto", sans-serif;
 }
-
+.open-sans-text {
+  font-family: "Open Sans", sans-serif;
+}
 /* #root {
   max-width: 1280px;
   margin: 0 auto;

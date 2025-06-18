@@ -1,0 +1,22 @@
+.links {
+  color: #6d6f79;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.linkButton {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #0f1324;
+  border-radius: 64px;
+  padding: 12px 32px;
+  border: none;
+}
+.linkButton:hover {
+  color: #ffffff;
+  background-color: #0f1324;
+}
