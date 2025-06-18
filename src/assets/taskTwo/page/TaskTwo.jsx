@@ -7,6 +7,7 @@ import BrandPartner from "../components/brandPartner/BrandPartner";
 import TeamSection from "../components/teamSection/TeamSection";
 import About from "../components/about/About";
 import Footer from "../components/footer/Footer";
+// import BrandAccelerate from "../components/brandAccelerate/BrandAccelerate";
 
 function TaskTwo() {
   return (
@@ -14,6 +15,7 @@ function TaskTwo() {
       <Header />
       <AmazonGrowth />
       <BrandService />
+      {/* <BrandAccelerate /> */}
       <MarketAccess />
       <WareHouse />
       <BrandPartner />

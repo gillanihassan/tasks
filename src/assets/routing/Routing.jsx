@@ -7,7 +7,7 @@ function Routing() {
   return (
     <Router>
       <Routes>
-        <Route path="/taskOne" element={<MindBalance />} />
+        <Route path="/task-one" element={<MindBalance />} />
         <Route path="/task-two" element={<TaskTwo />} />
       </Routes>
     </Router>
