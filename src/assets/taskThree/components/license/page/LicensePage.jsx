@@ -3,6 +3,7 @@ import LicenseNav from "../navbar/LicenseNav";
 import BuySection from "../buySection/BuySection";
 import LicensesSection from "../licensesSection/LicensesSection";
 import LicenseService from "../licenseService/LicenseService";
+import FormSection from "../formSection/FormSection";
 
 function LicensePage() {
   return (
@@ -11,6 +12,7 @@ function LicensePage() {
       <BuySection />
       <LicensesSection />
       <LicenseService />
+      <FormSection />
     </div>
   );
 }
