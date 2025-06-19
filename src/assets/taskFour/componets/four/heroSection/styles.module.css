@@ -1,0 +1,43 @@
+.mainContainer {
+  background-image: url("/public/hero-bg.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.customImg {
+  width: 333px;
+}
+.topHeading {
+  color: #454547;
+  font-family: "Dosis";
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 4%;
+}
+.btn {
+  width: 336px;
+  background: linear-gradient(300deg, #0d84c8 0%, #23a3dc 1%, #0d84c8 100%);
+  border: none;
+  border: 5px;
+  padding: 0.8rem 0rem;
+  color: #ffffff;
+  font-family: "Dosis";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 5%;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .customImg {
+    width: 290px;
+  }
+  .colRight {
+    margin-top: 2rem;
+  }
+}
