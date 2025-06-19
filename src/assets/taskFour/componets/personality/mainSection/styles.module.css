@@ -1,0 +1,124 @@
+.mainContainer {
+  background-image: url("/public/hero-bg.png");
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  position: relative;
+}
+.topLogo {
+  width: 297px;
+}
+.topHeading {
+  color: #0e85c9;
+  font-family: "Dosis";
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 4%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.topHeadingTwo {
+  color: #000000;
+  font-family: "Dosis";
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.paraTwo {
+  color: #9c0e0e;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 18px;
+  letter-spacing: 10%;
+  text-align: center;
+}
+.paraThree {
+  color: #000000;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.paraSpanThree {
+  color: #304e9c;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  cursor: pointer;
+}
+.paraFour {
+  color: #304e9c;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.leftPara {
+  color: #314e9d;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 42px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.rightPara {
+  color: #000000;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+.customBtn {
+  background: linear-gradient(180deg, #23a3dc 0%, #0d84c8 100%);
+  color: #ffffff;
+  font-family: "Dosis";
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 5%;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  padding: 0.8rem 6rem;
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+  .paraTwo {
+    line-height: 33px;
+  }
+}
+@media (max-width: 576px) {
+  .paraTwo {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .paraThree {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .paraSpanThree {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .paraFour {
+    font-size: 22px;
+    line-height: 20px;
+  }
+}
