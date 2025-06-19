@@ -1,6 +1,6 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 import styles from "./styles.module.css";
-import facebook from "../../../../taskFour/images/footer/facebook.png";
+import facebook from "../../../../taskFour/images/footer/Facebook.png";
 import Instagram from "../../../../taskFour/images/footer/Instagram.png";
 import Twitter from "../../../../taskFour/images/footer/Twitter.png";
 import YouTube from "../../../../taskFour/images/footer/YouTube.png";
