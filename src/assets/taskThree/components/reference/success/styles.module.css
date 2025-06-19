@@ -1,0 +1,49 @@
+.mainContainer {
+  /* border: 2px solid red; */
+  margin-top: 4rem;
+}
+.topHeading {
+  color: #0f1324;
+  width: 100%;
+  max-width: 343px;
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 56px;
+}
+.topPara {
+  color: #0f1324;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  width: 100%;
+  max-width: 500px;
+}
+.paraTwo {
+  color: #0f1324;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  /* border: 2px solid red; */
+  width: 100%;
+  max-width: 500px;
+}
+.paraThree {
+  color: #6d6f79;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 6%;
+}
+@media (max-width: 600px) {
+  .customImage {
+    width: 100%;
+    max-width: 580px;
+  }
+}
