@@ -1,0 +1,21 @@
+.mapBackground {
+  background-size: cover;
+  background-position: center;
+  min-height: 450px;
+  position: relative;
+  /* border: 2px solid red; */
+  filter: grayscale(100%);
+  margin-top: 5rem;
+}
+.leftCol {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.topHeading {
+  color: #0f1324;
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 56px;
+}
