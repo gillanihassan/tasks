@@ -1,0 +1,26 @@
+.mainContainer {
+  margin-top: 6rem;
+  margin-bottom: 1rem;
+}
+.footerHeading {
+  color: #000000;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+.footerPara {
+  color: #000000;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+@media (max-width: 768px) {
+  .mainContainer {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+}
