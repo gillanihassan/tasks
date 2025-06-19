@@ -4,6 +4,7 @@ import MindBalance from "../taskOne/page/MindBalance";
 import TaskTwo from "../taskTwo/page/TaskTwo";
 import LicensePage from "../taskThree/components/license/page/LicensePage";
 import ReferencePage from "../taskThree/components/reference/ReferencePage";
+import About from "../taskThree/components/about/AboutPage";
 
 function Routing() {
   return (
@@ -13,6 +14,7 @@ function Routing() {
         <Route path="/task-two" element={<TaskTwo />} />
         <Route path="/task-three-license" element={<LicensePage />} />
         <Route path="/task-three-reference" element={<ReferencePage />} />
+        <Route path="/task-three-about" element={<About />} />
       </Routes>
     </Router>
   );
