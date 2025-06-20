@@ -8,6 +8,7 @@ import About from "../taskThree/components/about/AboutPage";
 import TaskFour from "../taskFour/page/TaskFour";
 import Video from "../taskFour/componets/video/Video";
 import Personality from "../taskFour/componets/personality/Personality";
+import TaskFive from "../taskFive/page/TaskFive";
 
 function Routing() {
   return (
@@ -21,6 +22,7 @@ function Routing() {
         <Route path="/task-four" element={<TaskFour />} />
         <Route path="/task-four/video" element={<Video />} />
         <Route path="/task-four/personality" element={<Personality />} />
+        <Route path="/task-five" element={<TaskFive />} />
       </Routes>
     </Router>
   );
