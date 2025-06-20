@@ -1,0 +1,45 @@
+.mainDiv {
+  /* border: 2px solid red; */
+  margin-top: 5rem;
+  box-shadow: 0px 4px 15px 0px #00000040;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+.topHeading {
+  color: #000000;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  width: 100%;
+  max-width: 478px;
+}
+.topPara {
+  color: #000000;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 124%;
+  letter-spacing: 1px;
+  width: 100%;
+  max-width: 466px;
+}
+.btn {
+  background-color: #179988;
+  border-radius: 87px;
+  box-shadow: 0px 4px 15px 0px #00000040;
+  padding: 1rem;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 5%;
+  border: none;
+}
+@media (max-width: 470px) {
+  .topHeading {
+    font-size: 30px;
+  }
+}
