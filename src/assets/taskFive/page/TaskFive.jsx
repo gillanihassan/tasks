@@ -2,6 +2,7 @@ import React from "react";
 import FiveNavbar from "../components/navbar/FiveNavbar";
 import HeroSection from "../components/heroSection/HeroSection";
 import CardSection from "../components/cardSection/CardSection";
+import FitBit from "../components/fitBit/FitBit";
 
 function TaskFive() {
   return (
@@ -9,6 +10,7 @@ function TaskFive() {
       <FiveNavbar />
       <HeroSection />
       <CardSection />
+      <FitBit />
     </div>
   );
 }

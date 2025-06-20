@@ -1,0 +1,29 @@
+.mainDiv {
+  /* border: 2px solid red; */
+  margin-top: 7rem;
+}
+.topPara {
+  color: #000000;
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 15%;
+  text-align: center;
+}
+.paraOne {
+  color: #000000;
+  font-family: "Rasa";
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 130%;
+  letter-spacing: 0.22px;
+  text-align: center;
+  width: 100%;
+  max-width: 870px;
+}
+@media (max-width: 576px) {
+  .paraOne {
+    font-size: 22px;
+  }
+}
