@@ -1,0 +1,46 @@
+.mainDiv {
+  /* border: 2px solid red; */
+  margin-top: 7rem;
+}
+.topPara {
+  color: #000000;
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.paraOne {
+  color: #000000;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  width: 100%;
+  max-width: 814px;
+}
+.btn {
+  background-color: #179988;
+  border-radius: 87px;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 5%;
+  text-align: center;
+  box-shadow: 0px 4px 20px 0px #00000040;
+  padding: 0.7rem 1.8rem;
+}
+@media (max-width: 576px) {
+  .paraOne {
+    font-size: 22px;
+  }
+  .mainDiv {
+    /* border: 2px solid red; */
+    margin-top: 3rem;
+    padding: 1rem;
+  }
+}

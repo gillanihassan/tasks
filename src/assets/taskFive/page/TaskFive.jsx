@@ -5,6 +5,8 @@ import CardSection from "../components/cardSection/CardSection";
 import FitBit from "../components/fitBit/FitBit";
 import Purpose from "../components/purpose/Purpose";
 import Mountain from "../components/mountain/Mountain";
+import Community from "../components/community/Community";
+import Team from "../components/team/Team";
 
 function TaskFive() {
   return (
@@ -15,6 +17,8 @@ function TaskFive() {
       <FitBit />
       <Purpose />
       <Mountain />
+      <Community />
+      <Team />
     </div>
   );
 }
