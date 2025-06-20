@@ -1,0 +1,36 @@
+.mainContainer {
+  margin-top: 4rem;
+}
+.topHeading {
+  color: #000000;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 125%;
+  letter-spacing: 3.5px;
+  text-align: center;
+}
+.cardHeading {
+  color: #000000;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 150%;
+  letter-spacing: 5%;
+}
+.cardPara {
+  color: #000000;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 5%;
+}
+@media (max-width: 470px) {
+  .cardHeading {
+    font-size: 22px;
+  }
+  .cardPara {
+    font-size: 12px;
+  }
+}
